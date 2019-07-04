@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pigLatinTranslator.css">
+    <title>Pig Latin</title>
+  </head>
+  <body>
+    <h1>Pig Latin Translator</h1>
+    <div>
+      <p>Welcome to my Pig Latin Translator! Simply type in whatever text you would like to translate and click the TRANSLATE button to translate it into Pig Latin. If you use contractions, they will not be converted :(
+      </p>
+    </div>
+    <form>
+      <textarea rows="8" cols="80" id="userInput"></textarea>
+    </form>
+    <button type="submit" onclick="translator()" class="btn btn-primary">TRANSLATE</button>
+    <div>
+      <h4 id="translation"></h4>
+    </div>
+    <script src="pigLatinTranslator.js"></script>
+  </body>
+</html>
